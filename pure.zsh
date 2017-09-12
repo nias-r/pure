@@ -138,6 +138,9 @@ prompt_pure_preprompt_render() {
 		# (e.g. virtualenv).
 		cleaned_ps1=${PROMPT%%${prompt_newline}*}${PROMPT##*${prompt_newline}}
 	fi
+	
+	# emoji
+	preprompt_parts+=('🐳 ')
 
 	# Construct the new prompt with a clean preprompt.
 	local -ah ps1
