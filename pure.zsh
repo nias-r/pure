@@ -142,7 +142,7 @@ prompt_pure_preprompt_render() {
 	unset MATCH MBEGIN MEND
 
 	# emoji
-	preprompt_parts+=('🌯 ')
+	preprompt_parts+=('🦑 ')
 
 	# Construct the new prompt with a clean preprompt.
 	local -ah ps1
